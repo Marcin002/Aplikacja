@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
             findViewById<Button>(R.id.przycisk).text="dziala"
         }
         findViewById<Button>(R.id.cecha).setOnClickListener {
-            findViewById<Button>(R.id.cecha).textSize=
+            findViewById<Button>(R.id.cecha).text="inne"
         }
 
     }
